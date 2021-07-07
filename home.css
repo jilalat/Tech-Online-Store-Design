@@ -1,0 +1,189 @@
+
+.msi-img {
+  width: 100%;
+}
+
+.sliders {
+  position: relative;
+}
+
+.black-slider {
+  position: absolute;
+  top: 42.6%;
+  width: 100%;
+  cursor: pointer;
+}
+
+.ov-slider {
+  position: relative;
+height: 48px;
+width: 36px;
+background: #252931;
+border-radius: 0px 30px 30px 0px;
+}
+
+.ov-slider:hover {
+background: #0156FF;
+opacity: 1;
+}
+
+.l-slider-icon, .r-slider-icon {
+  position: absolute;
+top: 38.4%;
+right: 48%;
+}
+
+.new-products{
+  padding: 37px 0 17px;
+  position: relative;
+}
+
+.top-new-products {
+  padding-bottom: 14px;
+}
+
+.product-card{
+  padding: 0 25px;
+  position: relative;
+}
+
+.gray-slider {
+  position: absolute;
+  top: 48.5%;
+  width: 100%;
+  cursor: pointer;
+}
+
+.product-card:hover .card-right, .product-card:hover .product-btn {
+  display: block;
+}
+
+.product-card:hover {
+padding-bottom: 25px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.14);
+  }
+
+  .reviews {
+    padding-bottom: 6px;
+  }
+
+.stars {
+  margin-right: 9.5px;
+}
+
+.p-product { 
+  padding-bottom: 15px;
+}
+
+.product-img, .product-btn {
+  align-self: center;
+}
+
+.product-btn {
+  padding-left: 18px;
+  padding-right: 18px;
+  align-self: center;
+  margin-top: 15px;
+}
+
+.b-basket {
+  margin-right: 9px;
+}
+
+.card-right {
+  position: absolute;
+  top: 16px;
+  right: 12.5px;
+}
+.like {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.zip {
+  color: #272560;
+  justify-content: center;
+  padding: 22px 0;
+}
+.zip-img {
+margin-left: 12px;
+margin-right: 14.5px;
+}
+
+.custome-builds {
+  padding-top: 14px;
+}
+
+.category-card {
+  position: relative;
+}
+
+.category-card h2 {
+  position: absolute;
+  top: 42%;
+  text-align: center;
+}
+
+.category-card a {
+  position: absolute;
+  bottom: 32px;
+}
+
+
+.category-nav {
+  padding: 36px 0 23px;
+}
+
+.category-nav a {
+  margin-right:27px;
+}
+
+.hovered-underline {
+  position: relative;
+}
+
+.hovered-underline::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  background-color: #0156FF;
+  left: 0;
+  bottom: -3px;
+}
+
+  .gray-hov:hover {
+    color: #000000;
+    }
+
+.gaming-monitors {
+  padding-top: 31px;
+}
+
+.logos {
+  padding-top: 31px;
+}
+
+.hov-logos {
+  padding: 35px 23px;
+}
+
+.hov-logos:hover {
+  background-color: #EBEBEB;
+}
+
+.follow-cards {
+flex-wrap: wrap;
+gap: 20px 9px;
+padding: 42.5px 0 58px;
+}
+
+.follow-card {
+  height: 322.106201171875px;
+width: 225px;
+text-align: center;
+}
+
+.follow-card p:first-of-type {
+  padding: 10px 20px;
+}

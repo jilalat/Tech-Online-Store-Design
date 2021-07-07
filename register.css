@@ -1,0 +1,41 @@
+.customer-login {
+  padding: 21px 0 58px;
+}
+
+.new {
+  align-self: stretch;
+}
+
+.new ul {
+  padding-bottom: 36px;
+}
+
+.new ul li{
+ list-style-type: disc;
+ list-style-position: inside;
+}
+
+.registered, .new {
+  background-color: #F5F9FF;
+  width: 564px;
+  padding: 37px 57.5px 41px;
+}
+
+.registered > p, .new > p {
+  padding: 9px 0 14px;
+}
+
+input {
+  width: 100%;
+  padding: 17px;
+}
+
+.si-in {
+  padding-top: 31px;
+}
+
+.plr {
+  padding: 11px 36px;
+  margin-right: 23px;
+}
+
