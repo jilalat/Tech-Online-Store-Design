@@ -109,10 +109,19 @@ align-items: flex-start;
   padding: 21px 0;
 }
 
+.stars {
+  margin-right: 9.5px;
+}
+
+.b-basket {
+  margin-right: 9px;
+}
 /* ====================================================== ====================  2- Typography  =====================
 ========================================================*/
 
-
+h2 {
+  padding-top: 19px;
+}
 .text-13-18 {
 font-size: 13px;
 font-weight: 400;
@@ -128,6 +137,12 @@ line-height: 18px;
 }
 .text-12-140 {
   font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  /* line-height: 18px */
+}
+.text-12-140-300 {
+  font-weight: 300;
   font-size: 12px;
   line-height: 140%;
   /* line-height: 18px */
@@ -160,14 +175,26 @@ line-height: 19px;
   font-weight: normal;
   line-height: 19px;
 }
+.text-13-17-normal {
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 130%;
+  /* line-height: 17px; */
+}
 
-.text-13-19 {
+.text-13-20 {
 font-size: 13px;
 font-weight: 600;
 line-height: 20px;
 }
 .text-13-210 {
   font-weight: 600;
+  font-size: 13px;
+  line-height: 210%;
+  /* or 27px */
+}
+.text-13-210-normal {
+  font-weight: normal;
   font-size: 13px;
   line-height: 210%;
   /* or 27px */
@@ -267,6 +294,12 @@ line-height: 27px;
   line-height: 140%;
   }
 
+.text-16-24 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  }
+
 .text-22-33 {
   font-size: 22px;
   font-weight: 600;
@@ -311,6 +344,11 @@ line-height: 27px;
     ;
   }
 
+  .gray-66-color {
+    color: #666666;
+    ;
+  }
+
   .blue-color {
     color: #0156FF;
   }
@@ -318,8 +356,12 @@ line-height: 27px;
   .black-bg {
     background-color: #020203;
 }
+  .red-bg {
+    background-color: #DB0000;
+}
  .f5-bg {
    background-color: #F5F7FF;
+   /* background-color: #00ccff5b; */
  }
 
 /* ====================================================== =====================  3- Components  ====================
@@ -349,17 +391,20 @@ border: 0.1px solid #ffffff;
   padding-bottom: 8px;
   border: 2px solid #0156FF;
   border-radius: 50px;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 21px;
-  text-align: center;
   cursor: pointer;
   }
   
   .blue-btn {
     border: none;
     background-color: #0156FF;
+  }
+
+  .gray-btn {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 2px solid #666666;
+    border-radius: 50px;
+    cursor: pointer;
   }
 
   .yellow-btn {
