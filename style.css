@@ -77,16 +77,16 @@ align-items: flex-start;
 .scal-1-2:hover {
   transform: scale(1.2);
 }
-.scal-1-2 {
+/* .scal-1-2 {
   transform: scale(1.2);
-}
+} */
 
 .scal-1-3:hover {
   transform: scale(1.3);
 }
-.scal-1-3 {
+/* .scal-1-3 {
   transform: scale(1.3);
-}
+} */
 
 .opacity-0-5 {
   opacity: 0.5;
@@ -403,6 +403,13 @@ border: 0.1px solid #ffffff;
     padding-top: 8px;
     padding-bottom: 8px;
     border: 2px solid #666666;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .gray-8c-btn {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 2px solid #8C8C8C;
     border-radius: 50px;
     cursor: pointer;
   }
