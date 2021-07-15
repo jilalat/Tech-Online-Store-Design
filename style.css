@@ -91,6 +91,9 @@ align-items: flex-start;
 .opacity-0-5 {
   opacity: 0.5;
   }
+.opacity-0-3 {
+  opacity: 0.3;
+  }
 .opacity-0-2 {
   opacity: 0.2;
   }
@@ -116,6 +119,10 @@ align-items: flex-start;
 .b-basket {
   margin-right: 9px;
 }
+
+.gray-hov:hover {
+  color: #000000;
+  }
 /* ====================================================== ====================  2- Typography  =====================
 ========================================================*/
 
@@ -135,8 +142,20 @@ line-height: 18px;
   line-height: 15px;
 
 }
+.text-12-14 {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 120.5%;
+  /* or 14px */
+}
 .text-12-140 {
   font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  /* line-height: 18px */
+}
+.text-12-140-bold {
+  font-weight: 600;
   font-size: 12px;
   line-height: 140%;
   /* line-height: 18px */
@@ -211,32 +230,46 @@ line-height: 20px;
   line-height: 22px;
 }
 
-
 .text-18-22-normal {
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
 }
+
 .text-18-24 {
   font-weight: bold;
   font-size: 18px;
   line-height: 132.5%;
 }
+
 .text-18-27 {
 font-size: 18px;
 font-weight: 400;
 line-height: 27px;
 }
+
 .text-18-27-bold {
 font-size: 18px;
 font-weight: 600;
 line-height: 27px;
 }
 
+/* .text-18-27-700 {
+font-size: 18px;
+font-weight: 700;
+line-height: 27px;
+} */
+
 .text-18-26 {
   font-weight: 300;
   font-size: 18px;
   line-height: 26px;
+}
+.text-18-30 {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
 }
 
 .text-14-140 {
@@ -268,6 +301,12 @@ line-height: 27px;
   line-height: 21px;
 }
 
+.text-14-21-700 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
 .text-14-14 {
   font-style: normal;
   font-weight: 700;
@@ -281,9 +320,14 @@ line-height: 27px;
   font-weight: 400;
   line-height: 20px;
   }
+.text-14-22 {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  /* or 157% */
+  }
 .text-14-30 {
   font-size: 14px;
-  font-style: 300;
   font-weight: 400;
   line-height: 30px;
   }
@@ -297,6 +341,12 @@ line-height: 27px;
 .text-16-24 {
   font-size: 16px;
   font-weight: 700;
+  line-height: 24px;
+  }
+
+.text-16-24-500 {
+  font-size: 16px;
+  font-weight: 500;
   line-height: 24px;
   }
 
@@ -322,6 +372,12 @@ line-height: 27px;
   font-weight: 500;
   font-size: 44px;
   line-height: 58px;
+  }
+
+.text-38-57 {
+font-size: 38px;
+font-weight: 500;
+line-height: 57px;
   }
 
   .white-color {
@@ -362,6 +418,18 @@ line-height: 27px;
  .f5-bg {
    background-color: #F5F7FF;
    /* background-color: #00ccff5b; */
+ }
+
+ .ae-bg {
+   background-color: #EAE8EB;
+ }
+
+ .f2-bg {
+   background-color: #F2E9DC;
+ }
+
+ .b4-bg {
+   background-color: #4B4D4F;
  }
 
 /* ====================================================== =====================  3- Components  ====================
@@ -496,18 +564,23 @@ z-index: 10;
   color: #FFFFFF;
 }
 
-.underline {
+.white-underline, .blue-underline {
   position: relative;
 }
 
-.underline::after {
+.white-underline::after, .blue-underline::after {
   content: "";
   width: 100%;
   height: 2px;
   position: absolute;
-  background-color: #FFFFFF;
   left: 0;
-  bottom: -4px;
+  bottom: -3px;
+}
+.white-underline::after {
+background-color: #FFFFFF;
+}
+.blue-underline::after {
+background-color: #0156FF;
 }
 
 .w-fb {
@@ -794,11 +867,18 @@ line-height: 144px;
   padding-right: 26px;
 }
 
-.blue-cercle, .gray-cercle {
+.big-cercle {
   height: 12px;
 width: 12px;
 border-radius: 50%;
 margin-left: 10px;
+cursor: pointer;
+}
+.small-cercle {
+  height: 10px;
+width: 10px;
+border-radius: 50%;
+margin-left: 11px;
 cursor: pointer;
 }
 
@@ -809,6 +889,10 @@ background-color: #CCCCCC;
 .blue-cercle {
 background-color: #0156FF;
 }
+
+.white-cercle {
+  background-color: #ffffff;
+  }
 
 .cards-shared-main {
   /* justify-content: space-around; */
