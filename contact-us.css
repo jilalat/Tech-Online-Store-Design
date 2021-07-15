@@ -1,0 +1,77 @@
+.contact-us-main {
+  flex: 1;
+}
+
+.contact-us-form {
+  width: 100%;
+}
+
+.contact-us-p {
+  padding-bottom: 21px;
+}
+
+.contact-us {
+}
+
+.contact-us-frame,
+.contact-us-big-frame,
+textarea {
+  border: 1px solid #8c8c8c;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding-left: 17px;
+  height: 50px;
+  width: 48.5%;
+  margin-bottom: 11px;
+}
+
+.contact-us-big-frame,
+textarea {
+  height: 258px;
+  width: 100%;
+}
+
+.your-email,
+.your-name {
+  flex: 1;
+}
+
+label {
+  padding: 2px 0 5px;
+}
+
+.yrname,
+.yremail {
+  width: 100%;
+}
+
+.your-email {
+  margin-left: 14px;
+}
+.your-name {
+  margin-right: 14px;
+}
+
+.contact-us-btn {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 5px 0 123px;
+}
+
+aside {
+  width: 411px;
+  margin-left: 60px;
+}
+
+.contact-us-info {
+  padding: 26px 0 74px 31px;
+  gap: 16px;
+}
+
+.contact-us-icons {
+  margin-right: 10px;
+}
+
+.contact-us-info-margin {
+  margin-bottom: 15px;
+}
