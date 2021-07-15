@@ -349,6 +349,18 @@ line-height: 27px;
   line-height: 24px;
   }
 
+.text-16-24-bold {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  }
+
+.text-16-24-300 {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  }
+
 .text-16-30 {
   font-weight: 300;
   font-size: 16px;
@@ -360,6 +372,12 @@ line-height: 27px;
   font-size: 22px;
   font-weight: 600;
   line-height: 33px;
+  }
+
+.text-24-36 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
   }
 
 .text-32-48 {

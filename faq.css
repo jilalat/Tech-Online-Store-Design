@@ -1,0 +1,37 @@
+.shop-t-c-main {
+  flex: 1;
+}
+
+.shop-t-c-main-p {
+  padding-bottom: 51px;
+}
+.shop-t-c-main {
+  padding-bottom: 90px;
+}
+
+ol {
+  counter-reset: list;
+}
+
+.ordered-list {
+  position: relative;
+  margin-left: 32px;
+}
+
+.ordered-list:before {
+  counter-increment: list;
+  content: "(" counter(list, lower-alpha) ")";
+  position: absolute;
+  left: -32px;
+}
+
+.aside-menu {
+  padding: 25px 24px;
+  gap: 15px;
+  width: 327px;
+  margin-left: 30px;
+}
+
+.aside-list-margin {
+  margin-top: 12px;
+}

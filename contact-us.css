@@ -10,9 +10,6 @@
   padding-bottom: 21px;
 }
 
-.contact-us {
-}
-
 .contact-us-frame,
 .contact-us-big-frame,
 textarea {
@@ -58,12 +55,9 @@ label {
   margin: 5px 0 123px;
 }
 
-aside {
+.contact-us-info {
   width: 411px;
   margin-left: 60px;
-}
-
-.contact-us-info {
   padding: 26px 0 74px 31px;
   gap: 16px;
 }
