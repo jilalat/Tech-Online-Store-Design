@@ -123,11 +123,35 @@ align-items: flex-start;
 .gray-hov:hover {
   color: #000000;
   }
+
+  .width-100 {
+    width: 100%;
+  }
 /* ====================================================== ====================  2- Typography  =====================
 ========================================================*/
 
 h2 {
   padding-top: 19px;
+}
+
+h5 {
+  padding-bottom: 13px;
+  }
+
+  .inline-p {
+    display: inline-block;
+  }
+
+.text-10-12 {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+}
+.text-10-180 {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 180%;
+  /* or 18px */
 }
 .text-13-18 {
 font-size: 13px;
@@ -144,6 +168,18 @@ line-height: 18px;
 }
 .text-12-14 {
   font-weight: 300;
+  font-size: 12px;
+  line-height: 120.5%;
+  /* or 14px */
+}
+.text-12-14-bold {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 120.5%;
+  /* or 14px */
+}
+.text-12-14-normal {
+  font-weight: normal;
   font-size: 12px;
   line-height: 120.5%;
   /* or 14px */
@@ -246,6 +282,7 @@ line-height: 20px;
 font-size: 18px;
 font-weight: 400;
 line-height: 27px;
+/* line-height: 147.5%; */
 }
 
 .text-18-27-bold {
@@ -289,6 +326,21 @@ line-height: 27px;
   font-size: 14px;
   line-height: 140%;
 }
+.text-14-20 {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+.text-14-20-bold {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.text-14-20-normal {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+}
 .text-14-21 {
   font-size: 14px;
   font-weight: 600;
@@ -330,7 +382,16 @@ line-height: 27px;
   font-weight: 400;
   line-height: 30px;
   }
-
+.text-15-22 {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  }
+.text-15-22-normal {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  }
 .text-16-140 {
   font-weight: 600;
   font-size: 16px;
@@ -341,6 +402,21 @@ line-height: 27px;
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
+  }
+.text-16-20-500 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  }
+.text-16-20-normal {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  }
+.text-16-20-300 {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
   }
 
 .text-16-24-500 {
@@ -432,7 +508,7 @@ line-height: 57px;
   .blue-color {
     color: #0156FF;
   }
-  
+
   .black-bg {
     background-color: #020203;
 }
@@ -459,6 +535,18 @@ line-height: 57px;
 /* ====================================================== =====================  3- Components  ====================
 ========================================================*/
 
+.input-nb {
+  padding: 10px 11px;
+  max-width: 60px;
+  background: #ebebeb;
+  border-radius: 6px;
+  border: none;
+}
+
+.input-nb::-webkit-inner-spin-button,
+.input-nb::-webkit-outer-spin-button {
+  opacity: 1;
+}
 
 a {
   text-decoration: none;
@@ -479,36 +567,44 @@ border: 0.1px solid #ffffff;
 }
 
 .btn {
-  padding-top: 8px;
-  padding-bottom: 8px;
   border: 2px solid #0156FF;
   border-radius: 50px;
   cursor: pointer;
+  text-align: center;
   }
-  
-  .blue-btn {
-    border: none;
-    background-color: #0156FF;
+
+.btn-8 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  }
+
+.btn-15 {
+  padding-top: 12px;
+  padding-bottom: 12px;
   }
 
   .gray-btn {
-    padding-top: 8px;
-    padding-bottom: 8px;
     border: 2px solid #666666;
-    border-radius: 50px;
-    cursor: pointer;
   }
-  .gray-8c-btn {
-    padding-top: 8px;
-    padding-bottom: 8px;
+
+    .gray-8c-btn {
     border: 2px solid #8C8C8C;
     border-radius: 50px;
-    cursor: pointer;
+  }
+
+  .blue-btn {
+    border: 2px solid #0156FF;
+    background-color: #0156FF;
+  }
+  .black-btn {
+    border: 2px solid #000000;
+    background-color: #000000;
   }
 
   .yellow-btn {
-    border: none;
+    border: 2px solid #FFB800;
     background-color: #FFB800;
+    justify-content: center;
   }
    
     .cta {
@@ -529,7 +625,7 @@ line-height: 18px;
 letter-spacing: 0px;
 text-align: center;
  position: fixed;
-  width: 100%;
+  /* width: 100%; */
   z-index: 80;
   top: 0;
   background-color: #ffffff;
@@ -687,7 +783,6 @@ left: 14px;
 
   .hov-my-card a {
 justify-content: center;
-
   }
 
   .hov-my-card a:nth-child(2) {
@@ -696,8 +791,6 @@ margin-bottom: 7px;
       }
 
 .top-hov-my-card {
-  padding-left: 30px;
-  padding-right: 30px;
   padding: 24px 30px 20px;
 }
 
@@ -712,10 +805,6 @@ padding-bottom: 18px;
 
 .bottom-hov-my-card {
   padding: 16.5px 30px 24.5px;
-}
-
-.bottom-hov-my-card img {
-  margin-left: 10px;
 }
 
 .my-account {
@@ -858,10 +947,6 @@ background-color: #EBEBEB;
 
 main {
   padding-top: 148px;
-  /* padding-top: 136px;
-  ======12px
-  */
-
 }
 
 .quote {
@@ -891,19 +976,21 @@ line-height: 144px;
   padding-right: 26px;
 }
 
-.big-cercle {
-  height: 12px;
-width: 12px;
+.big-cercle, .small-cercle  {
 border-radius: 50%;
 margin-left: 10px;
 cursor: pointer;
 }
+
+.big-cercle {
+  height: 12px;
+width: 12px;
+}
+
 .small-cercle {
   height: 10px;
 width: 10px;
-border-radius: 50%;
-margin-left: 11px;
-cursor: pointer;
+
 }
 
 .gray-cercle {
@@ -982,13 +1069,15 @@ flex: 1;
   padding-top: 9px;
 }
 .right-top-footer input {
-  padding: 12px 150px 12px 10px ;
-  margin-right: 23px;
-  background-color: #000000;
+padding: 12px 10px ;
+margin-right: 23px;
+background-color: #000000;
 border: 2px solid #FFFFFF;
-box-sizing: border-box;
 border-radius: 4px;
+height: 50px;
+width: 391px;
 }
+
 .right-top-footer a {
 padding-left: 35px;
 padding-right: 35px;

@@ -2,10 +2,6 @@
   flex: 1;
 }
 
-.contact-us-form {
-  width: 100%;
-}
-
 .contact-us-p {
   padding-bottom: 21px;
 }
@@ -50,8 +46,8 @@ label {
 }
 
 .contact-us-btn {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
   margin: 5px 0 123px;
 }
 

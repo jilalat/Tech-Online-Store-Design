@@ -1,0 +1,56 @@
+.my-dashboard-main {
+  margin-top: 10px;
+  margin-bottom: 47px;
+}
+
+.dash-aside-menu {
+  width: 326px;
+  margin-right: 81px;
+}
+
+.compare-products,
+.my-wish-list,
+.my-dashboard-menu {
+  padding: 20px;
+}
+
+.compare-products,
+.my-wish-list {
+  text-align: center;
+  margin-top: 7px;
+  padding-bottom: 30px;
+}
+
+.aside-list-margin {
+  margin-top: 12px;
+}
+
+.acc-befor {
+  position: relative;
+}
+
+.acc-befor::before {
+  content: "";
+  position: absolute;
+  height: 30px;
+  width: 3px;
+  left: -20px;
+  bottom: -5px;
+  background-color: #0156ff;
+}
+
+.account-info {
+  flex: 1;
+}
+
+.pad-53 {
+  padding: 26px 0 50px;
+}
+
+.w-346 {
+  width: 364px;
+}
+
+.hr-3 {
+  margin-bottom: 17px;
+}

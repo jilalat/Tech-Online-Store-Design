@@ -7,14 +7,6 @@ width: 233px;
 margin-right: 6px;
 }
 
-aside .gray-btn, aside .blue-btn {
-width: 100%;
-}
-
-h5 {
-padding-bottom: 13px;
-}
-
 .back {
 width: 233px;
 margin-right: 7px;
@@ -64,10 +56,6 @@ padding: 15px 14.7px;
 border: 1px solid #CCCCCC;
 }
 
-.aside-hov-logos-img {
-width: 100%;
-}
-
 .aside-hov-logos:hover {
 background-color: #EBEBEB;
 }
@@ -78,7 +66,6 @@ grid-template-columns: 1fr 1fr;
 }
 
 .filter-title {
-width: 100%;
 padding: 10px 0;
 }
 
@@ -234,7 +221,7 @@ rgba(255,255,255, 0) 100%);
 }
 
 .more-btn {
-padding-left: 26px;
-padding-right: 26px;
+padding-left: 30px;
+padding-right: 30px;
 margin-bottom: 35px;
 }

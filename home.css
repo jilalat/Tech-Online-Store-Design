@@ -1,8 +1,3 @@
-
-.msi-img {
-  width: 100%;
-}
-
 .sliders {
   position: relative;
 }
@@ -10,7 +5,6 @@
 .black-slider {
   position: absolute;
   top: 42.6%;
-  width: 100%;
   cursor: pointer;
 }
 
@@ -50,7 +44,6 @@ right: 48%;
 .gray-slider {
   position: absolute;
   top: 48.5%;
-  width: 100%;
   cursor: pointer;
 }
 

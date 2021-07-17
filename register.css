@@ -26,7 +26,6 @@
 }
 
 input {
-  width: 100%;
   padding: 17px;
 }
 
@@ -35,7 +34,8 @@ input {
 }
 
 .plr {
-  padding: 11px 36px;
+  padding-left: 36px;
+  padding-right: 36px;
   margin-right: 23px;
 }
 
