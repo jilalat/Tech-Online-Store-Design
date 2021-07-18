@@ -33,10 +33,12 @@ border-radius: 50%;
 
 .blue-line, .blue-cercle {
 border-color: #0156FF;
+background-color: #0156FF;
 }
 
 .gray-line, .gray-cercle {
 border-color: #CCCCCC;
+background-color: #CCCCCC;
 }
 
 .blue-cercle, .gray-cercle {
@@ -81,7 +83,7 @@ max-width: 570px;
 
 .email-p {
 padding-bottom:20px;
-border-bottom: 1px solid #CCCCCC;
+border-bottom: 2.5px solid rgba(204, 204, 204, 1);
 margin-bottom: 21px;
 }
 

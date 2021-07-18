@@ -23,7 +23,7 @@
 }
 
 .msi-mpg {
-  border-top: 1px solid #000000;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
   position: relative;
   z-index: 2;
 }
@@ -183,6 +183,7 @@
 .featues {
   background: radial-gradient(50% 50% at 50% 50%, #242528 0%, #040404 100%);
   padding: 76px 0 95px;
+  margin-top: -7px;
 }
 
 .mpg-text {

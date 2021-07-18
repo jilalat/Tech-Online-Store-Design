@@ -21,25 +21,25 @@
 
 .grid-item {
   grid-area: item;
-  border-bottom: 2.5px solid #cccccc;
+  border-bottom: 2.5px solid rgba(204, 204, 204, 0.5);
   padding-bottom: 10px;
 }
 
 .grid-price {
   grid-area: price;
-  border-bottom: 2.5px solid #cccccc;
+  border-bottom: 2.5px solid rgba(204, 204, 204, 0.5);
   padding-bottom: 10px;
 }
 
 .grid-qty {
   grid-area: qty;
-  border-bottom: 2.5px solid #cccccc;
+  border-bottom: 2.5px solid rgba(204, 204, 204, 0.5);
   padding-bottom: 10px;
 }
 
 .grid-sub {
   grid-area: sub;
-  border-bottom: 2.5px solid #cccccc;
+  border-bottom: 2.5px solid rgba(204, 204, 204, 0.5);
   padding-bottom: 10px;
 }
 

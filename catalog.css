@@ -186,6 +186,7 @@ cursor: pointer;
 .nb-btn:hover, .more-btn:hover{
 background-color: #0156FF;
 color: rgb(255, 255, 255);
+border: none;
 }
 
 .etc {

@@ -39,6 +39,11 @@
   background-color: #0156ff;
 }
 
+.my-dashboard-menu-li:hover {
+  color: black;
+  font-weight: 600;
+}
+
 .account-info {
   flex: 1;
 }

@@ -38,6 +38,7 @@ body {
   max-width: 1400px;
   margin: 0 auto;
 }
+
 .small-container {
   max-width: 1160px;
   margin: 0 auto;
@@ -64,6 +65,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 }
+
 .col-flex-start {
 display: flex;
 flex-direction: column;
@@ -77,26 +79,23 @@ align-items: flex-start;
 .scal-1-2:hover {
   transform: scale(1.2);
 }
-/* .scal-1-2 {
-  transform: scale(1.2);
-} */
 
 .scal-1-3:hover {
   transform: scale(1.3);
 }
-/* .scal-1-3 {
-  transform: scale(1.3);
-} */
 
 .opacity-0-5 {
   opacity: 0.5;
   }
-.opacity-0-3 {
+
+  .opacity-0-3 {
   opacity: 0.3;
   }
-.opacity-0-2 {
+
+  .opacity-0-2 {
   opacity: 0.2;
   }
+
   .rot-180 {
     transform: rotate(-180deg);
   }
@@ -104,7 +103,8 @@ align-items: flex-start;
   .hidden {
     display: none;
   }
-.box-shadow {
+
+  .box-shadow {
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.14);
 }
 
@@ -124,9 +124,11 @@ align-items: flex-start;
   color: #000000;
   }
 
-  .width-100 {
-    width: 100%;
+.width-100 {
+  width: 100%;
   }
+
+
 /* ====================================================== ====================  2- Typography  =====================
 ========================================================*/
 
@@ -138,8 +140,8 @@ h5 {
   padding-bottom: 13px;
   }
 
-  .inline-p {
-    display: inline-block;
+.inline-p {
+  display: inline-block;
   }
 
 .text-10-12 {
@@ -147,16 +149,19 @@ h5 {
   font-size: 10px;
   line-height: 12px;
 }
+
 .text-10-180 {
   font-weight: normal;
   font-size: 10px;
   line-height: 180%;
   /* or 18px */
 }
+
 .text-13-18 {
 font-size: 13px;
 font-weight: 400;
 line-height: 18px;
+line-height: 1.4;
   /* line-height: 140% */
 }
 
@@ -164,44 +169,50 @@ line-height: 18px;
   font-size: 10px;
   font-weight: 400;
   line-height: 15px;
-
 }
+
 .text-12-14 {
   font-weight: 300;
   font-size: 12px;
   line-height: 120.5%;
   /* or 14px */
 }
+
 .text-12-14-bold {
   font-weight: 600;
   font-size: 12px;
   line-height: 120.5%;
   /* or 14px */
 }
+
 .text-12-14-normal {
   font-weight: normal;
   font-size: 12px;
   line-height: 120.5%;
   /* or 14px */
 }
+
 .text-12-140 {
   font-weight: 400;
   font-size: 12px;
   line-height: 140%;
   /* line-height: 18px */
 }
+
 .text-12-140-bold {
   font-weight: 600;
   font-size: 12px;
   line-height: 140%;
   /* line-height: 18px */
 }
+
 .text-12-140-300 {
   font-weight: 300;
   font-size: 12px;
   line-height: 140%;
   /* line-height: 18px */
 }
+
 .text-12-25 {
 font-size: 12px;
 font-weight: 400;
@@ -213,6 +224,7 @@ font-size: 13px;
 font-weight: 600;
 line-height: 14px;
 }
+
 .text-13-15 {
 font-size: 13px;
 font-weight: normal;
@@ -230,6 +242,7 @@ line-height: 19px;
   font-weight: normal;
   line-height: 19px;
 }
+
 .text-13-17-normal {
   font-size: 13px;
   font-weight: normal;
@@ -242,12 +255,14 @@ font-size: 13px;
 font-weight: 600;
 line-height: 20px;
 }
+
 .text-13-210 {
   font-weight: 600;
   font-size: 13px;
   line-height: 210%;
   /* or 27px */
 }
+
 .text-13-210-normal {
   font-weight: normal;
   font-size: 13px;
@@ -260,6 +275,7 @@ line-height: 20px;
   font-size: 18px;
   line-height: 140%;
 }
+
 .text-18-22 {
   font-size: 18px;
   font-weight: 600;
@@ -291,17 +307,12 @@ font-weight: 600;
 line-height: 27px;
 }
 
-/* .text-18-27-700 {
-font-size: 18px;
-font-weight: 700;
-line-height: 27px;
-} */
-
 .text-18-26 {
   font-weight: 300;
   font-size: 18px;
   line-height: 26px;
 }
+
 .text-18-30 {
   font-weight: 300;
   font-size: 18px;
@@ -326,21 +337,25 @@ line-height: 27px;
   font-size: 14px;
   line-height: 140%;
 }
+
 .text-14-20 {
   font-size: 14px;
   font-weight: 300;
   line-height: 20px;
 }
+
 .text-14-20-bold {
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
 }
+
 .text-14-20-normal {
   font-size: 14px;
   font-weight: normal;
   line-height: 20px;
 }
+
 .text-14-21 {
   font-size: 14px;
   font-weight: 600;
@@ -360,7 +375,7 @@ line-height: 27px;
 }
 
 .text-14-14 {
-  font-style: normal;
+
   font-weight: 700;
   line-height: 14px;
   line-height: 14px;
@@ -377,22 +392,26 @@ line-height: 27px;
   line-height: 22px;
   /* or 157% */
   }
-.text-14-30 {
+
+  .text-14-30 {
   font-size: 14px;
   font-weight: 400;
   line-height: 30px;
   }
-.text-15-22 {
+
+  .text-15-22 {
   font-weight: 600;
   font-size: 15px;
   line-height: 22px;
   }
-.text-15-22-normal {
+
+  .text-15-22-normal {
   font-weight: normal;
   font-size: 15px;
   line-height: 22px;
   }
-.text-16-140 {
+
+  .text-16-140 {
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;
@@ -403,17 +422,20 @@ line-height: 27px;
   font-weight: 700;
   line-height: 24px;
   }
-.text-16-20-500 {
+
+  .text-16-20-500 {
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
   }
-.text-16-20-normal {
+
+  .text-16-20-normal {
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
   }
-.text-16-20-300 {
+
+  .text-16-20-300 {
   font-size: 16px;
   font-weight: 300;
   line-height: 20px;
@@ -488,13 +510,19 @@ line-height: 57px;
     color: crimson;
   }
 
+  .blue-27-color {
+    color: #272560;
+  }
+
   .gray-color {
     color: #ACACAC;
   }
+
   .gray-8c-color {
     color: #8C8C8C;
     ;
   }
+
   .gray-83-color {
     color: #838383;
     ;
@@ -512,12 +540,13 @@ line-height: 57px;
   .black-bg {
     background-color: #020203;
 }
+
   .red-bg {
     background-color: #DB0000;
 }
- .f5-bg {
+
+.f5-bg {
    background-color: #F5F7FF;
-   /* background-color: #00ccff5b; */
  }
 
  .ae-bg {
@@ -596,6 +625,7 @@ border: 0.1px solid #ffffff;
     border: 2px solid #0156FF;
     background-color: #0156FF;
   }
+
   .black-btn {
     border: 2px solid #000000;
     background-color: #000000;
@@ -612,10 +642,8 @@ border: 0.1px solid #ffffff;
   padding-right: 26px;
     }
 
-
 /* ====================================================== ======================  4- Header  =======================
 ========================================================*/
-
 
 header {
 font-size: 12px;
@@ -625,7 +653,6 @@ line-height: 18px;
 letter-spacing: 0px;
 text-align: center;
  position: fixed;
-  /* width: 100%; */
   z-index: 80;
   top: 0;
   background-color: #ffffff;
@@ -649,7 +676,6 @@ letter-spacing: 0px;
 
 .left-top-header:hover + .hov-left-top-header {
   display: block;
-
 }
 
 .left-top-header img {
@@ -696,9 +722,11 @@ z-index: 10;
   left: 0;
   bottom: -3px;
 }
+
 .white-underline::after {
 background-color: #FFFFFF;
 }
+
 .blue-underline::after {
 background-color: #0156FF;
 }
@@ -706,7 +734,6 @@ background-color: #0156FF;
 .w-fb {
   margin: 0 12.5px 0 16px;
 }
-
 
 .fb-messenger {
   position: fixed;
@@ -863,7 +890,7 @@ padding: 8px 26px;
     position: absolute;
     left: -93px;
     top: 38px;
-    font-style: normal;
+  
     font-weight: 600;
     font-size: 14px;
     line-height: 21px;
@@ -901,7 +928,7 @@ background-color: #EBEBEB;
   top: 0;
   width: 262px;
   Height: 395px;
-  font-style: normal;
+
   font-weight: 600;
   font-size: 14px;
   line-height: 21px;
@@ -925,7 +952,7 @@ background-color: #EBEBEB;
   top: 0;
   width: 263px;
   Height: 395px;
-  font-style: normal;
+
   font-weight: 600;
   font-size: 14px;
   line-height: 21px;
@@ -1056,14 +1083,14 @@ flex: 1;
 }
 .left-top-footer p:first-child {
   font-size: 38px;
-  font-style: normal;
+
   font-weight: 500;
   line-height: 50px;
 
 }
 .left-top-footer p:last-child {
   font-size: 16px;
-  font-style: normal;
+
   font-weight: 300;
   line-height: 132.5%;
   padding-top: 9px;
@@ -1113,7 +1140,7 @@ padding-right: 35px;
   }
 
 .bottom-footer p {
-  font-style: normal;
+
   font-weight: 500;
   font-size: 12px;
   line-height: 132.5%;
